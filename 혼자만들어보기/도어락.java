@@ -12,8 +12,7 @@ public class 도어락 {
         int x = number.length();
         String[] lock = new String[x];
         for(int i = 0; i < x; i++){
-
-            System.out.println("비밀번호를 한글자씩 다시 입력해주세요: ");
+        System.out.println("비밀번호를 한글자씩 다시 입력해주세요: ");
             lock[i] = Scanner.next();
         }
 
@@ -26,8 +25,11 @@ public class 도어락 {
 
             }
         }
-            
+                  
+
+         
         Scanner.close();
     }  
         
 }
+ 
